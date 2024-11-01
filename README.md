@@ -26,10 +26,10 @@ A web-based **Healthcare Management System** designed to help hospital administr
    cd Healthcare-Management-System-Web
 Install Dependencies In the project’s root directory, run:
 
-```bash
 Copy code
-npm install
 ```bash
+npm install
+
 Configure Firebase
 
 Create a Firebase project and add your web app in Firebase Console.
