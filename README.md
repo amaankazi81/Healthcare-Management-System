@@ -26,9 +26,9 @@ A web-based **Healthcare Management System** designed to help hospital administr
    cd Healthcare-Management-System-Web
 Install Dependencies In the project’s root directory, run:
 
-Copy code
-```bash
-npm install
+   Copy code
+   ```bash
+   npm install
 
 Configure Firebase
 
