@@ -1,6 +1,6 @@
 ## Healthcare Management System 
 
-A web-based **Healthcare Management System** designed to help hospital administrators efficiently manage patient records, admissions, discharges, and more. This system offers an intuitive dashboard built with **React**, **HTML**, **CSS**, and **JavaScript** on the frontend, and a **Node.js** backend with **Firebase Firestore** for secure and scalable data management.
+A web-based **Healthcare Management System** designed to help hospital administrators efficiently manage patient records, admissions, discharges, and more. This system offers an intuitive dashboard built with **React**, **HTML**, **CSS**, and **JavaScript** on the frontend, and a **Node.js**, **Express** backend with **Firebase Firestore** for secure and scalable data management.
 
 ## Features
 
