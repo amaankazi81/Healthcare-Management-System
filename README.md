@@ -24,37 +24,35 @@ A web-based **Healthcare Management System** designed to help hospital administr
    ```bash
    git clone https://github.com/your-username/Healthcare-Management-System-Web.git
    cd Healthcare-Management-System-Web
-Install Dependencies In the project’s root directory, run:
 
    npm install
+Install Dependencies In the project’s root directory, run:
 
 Configure Firebase
 
 Create a Firebase project and add your web app in Firebase Console.
 Set up Firestore and Firebase Authentication.
 Replace the Firebase config details in your project.
+Add Your Admin Sdk .Json File in server directory and Update Server.js/ln:7
 Run the Server
 
-bash
 Copy code
 npm start
+
 The server will start on http://localhost:5000.
 
 Usage
+
 Admin Login: Access the dashboard via OTP-based login.
 Register & Manage Patients: Register, admit, search, and discharge patients through the Admin Dashboard.
 Visual Data Analysis: View graphical analysis of disease patterns and locate nearby healthcare facilities.
-Project Structure
+
+**Project Structure**
+client/ - Contains HTML, CSS, and JavaScript files for the web dashboard UI.
 server/ - Contains the backend code with Node.js and Express setup.
-public/ - Contains HTML, CSS, and JavaScript files for the web dashboard UI.
 config/ - Firebase configuration and environment files.
 Contributing
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
 
 License
 This project is licensed under the MIT License.
-
-vbnet
-Copy code
-
-This `README.md` provides an overview of the web application, setup instructions, usage guide, and projec
