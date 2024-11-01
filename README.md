@@ -9,6 +9,35 @@ A web-based **Healthcare Management System** designed to help hospital administr
 - **Search Patients**: Search for patients by UID (Aadhaar) to view records.
 - **Discharge Patients**: Discharge patients upon treatment completion, with diagnostic information.
 
+## Project Workflow: 
+
+**Admin Login:** Access the Admin dashboard via login.
+
+![h1](https://github.com/user-attachments/assets/c3225134-e552-48e5-928c-b619b1a3e12e)
+
+
+**Register:** Registering a Patient by personal information.
+
+![h2](https://github.com/user-attachments/assets/51548edd-6c5d-4f7f-9951-17bf5c8d50a6)
+
+![h3](https://github.com/user-attachments/assets/643a4da2-1807-4cb6-bef7-793355d71bb8)
+
+
+**New Entry:** Entry a patient by giving UID, Hospital name and address, Patient Type and Type of Ward.
+
+![h4](https://github.com/user-attachments/assets/65d660ee-03c9-498e-849b-595b23c4e43b)
+
+
+**Search:** Search a Pateint by UID and Can View All Patient.
+
+![h5](https://github.com/user-attachments/assets/4c954206-d223-4b0e-9e36-62c00a8cab72)
+
+
+**Discharge:** Dicharge a Patient by giving a note.
+
+![h6](https://github.com/user-attachments/assets/88cb7cf4-953a-4df7-a8ae-2171dfc22644)
+
+
 ## Tech Stack
 
 - **Frontend**: React, HTML, CSS, JavaScript
@@ -38,20 +67,17 @@ A web-based **Healthcare Management System** designed to help hospital administr
    ```bash
       npm start
 
-The server will start on http://localhost:5000.
-
-**Usage**
-
-Admin Login: Access the dashboard via login.
-Register & Manage Patients: Register, New Entry, Search, and Discharge patients through the Admin Dashboard.
+   The server will start on http://localhost:5000.
 
 **Project Structure**
-client/ - Contains HTML, CSS, and JavaScript files for the web dashboard UI.
+client/ - Contains React, HTML, CSS, and JavaScript files for the web dashboard UI.
+
 server/ - Contains the backend code with Node.js and Express setup.
+
 config/ - Firebase configuration and environment files.
 
-Contributing
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
 
-License
+**License**
+
 This project is licensed under the MIT License.
