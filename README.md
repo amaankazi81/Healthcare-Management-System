@@ -8,8 +8,6 @@ A web-based **Healthcare Management System** designed to help hospital administr
 - **New Patient Entry**: Admit patients to various wards (General, ICU, ICCU) and record their hospital details.
 - **Search Patients**: Search for patients by UID (Aadhaar) to view records.
 - **Discharge Patients**: Discharge patients upon treatment completion, with diagnostic information.
-- **OTP-based Authentication**: Ensures secure login access for authorized users.
-- **Data Visualization**: Analyze patient trends and disease patterns for better decision-making.
 
 ## Tech Stack
 
@@ -25,32 +23,33 @@ A web-based **Healthcare Management System** designed to help hospital administr
    git clone https://github.com/your-username/Healthcare-Management-System-Web.git
    cd Healthcare-Management-System-Web
 
-   npm install
-Install Dependencies In the project’s root directory, run:
+2. **Install Dependencies In the project’s root directory, run:**
+   ```bash
+      npm install
 
-Configure Firebase
+4. **Configure Firebase**
 
-Create a Firebase project and add your web app in Firebase Console.
-Set up Firestore and Firebase Authentication.
-Replace the Firebase config details in your project.
-Add Your Admin Sdk .Json File in server directory and Update Server.js/ln:7
-Run the Server
+   Create a Firebase project and add your web app in Firebase Console.
+   Set up Firestore and Firebase Authentication.
+   Replace the Firebase config details in your project.
+   Add Your Admin Sdk .Json File in server directory and Update Server.js/ln:7
 
-Copy code
-npm start
+4. **Run the Server**
+   ```bash
+      npm start
 
 The server will start on http://localhost:5000.
 
-Usage
+**Usage**
 
-Admin Login: Access the dashboard via OTP-based login.
-Register & Manage Patients: Register, admit, search, and discharge patients through the Admin Dashboard.
-Visual Data Analysis: View graphical analysis of disease patterns and locate nearby healthcare facilities.
+Admin Login: Access the dashboard via login.
+Register & Manage Patients: Register, New Entry, Search, and Discharge patients through the Admin Dashboard.
 
 **Project Structure**
 client/ - Contains HTML, CSS, and JavaScript files for the web dashboard UI.
 server/ - Contains the backend code with Node.js and Express setup.
 config/ - Firebase configuration and environment files.
+
 Contributing
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
 
