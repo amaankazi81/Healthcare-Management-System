@@ -13,7 +13,7 @@ A web-based **Healthcare Management System** designed to help hospital administr
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: React, HTML, CSS, JavaScript
 - **Backend**: Node.js, Express
 - **Database**: Firebase Firestore
 - **Authentication**: Firebase Authentication
