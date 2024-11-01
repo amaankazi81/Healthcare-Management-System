@@ -1,4 +1,4 @@
-## Healthcare Management System - Web Dashboard
+## Healthcare Management System 
 
 A web-based **Healthcare Management System** designed to help hospital administrators efficiently manage patient records, admissions, discharges, and more. This system offers an intuitive dashboard built with **HTML**, **CSS**, and **JavaScript** on the frontend, and a **Node.js** backend with **Firebase Firestore** for secure and scalable data management.
 
@@ -23,7 +23,7 @@ A web-based **Healthcare Management System** designed to help hospital administr
 ![h3](https://github.com/user-attachments/assets/643a4da2-1807-4cb6-bef7-793355d71bb8)
 
 
-**New Entry:** Entry a patient by giving UID, Hospital name and address, Patient Type and Type of Ward.
+**New Entry:** Admit a patient by giving UID, Hospital name and address, Patient Type and Type of Ward.
 
 ![h4](https://github.com/user-attachments/assets/65d660ee-03c9-498e-849b-595b23c4e43b)
 
@@ -49,8 +49,8 @@ A web-based **Healthcare Management System** designed to help hospital administr
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/Healthcare-Management-System-Web.git
-   cd Healthcare-Management-System-Web
+   git clone https://github.com/amaankazi81/Healthcare-Management-System.git
+   cd Healthcare-Management-System
 
 2. **Install Dependencies In the project’s root directory, run:**
    ```bash
