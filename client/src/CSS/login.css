@@ -1,0 +1,84 @@
+.login{
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    font-family: "Poppins", serif;
+    align-items: center;
+    margin-top: auto;
+    background-image: url('admin_background_img.jpg');
+}
+
+.log-con{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    flex-direction: column;
+    border: 0.5px, solid, rgb(127, 127, 131);
+    background-color: rgb(243, 246, 249);
+}
+
+.log-con:hover{
+    box-shadow: 15px 15px 20px  rgb(141, 137, 137);
+}
+
+.ipt{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.ipt input, button{
+    width: 350px;
+    height: 25px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    border: 0.5px, solid, rgb(204, 204, 222);
+    border-radius: 10px ;
+}
+
+.ipt button{
+    height: 35px;
+    padding: 5px ;
+    margin: 10px;
+    background-color: #5f6263;
+    font-size: 17px;
+}
+.ipt button:hover{
+    color: white;
+    background-color: rgb(29, 30, 30);
+    cursor: pointer;
+}
+.hl{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color:#414a4c;
+    color: white;
+    border: 0.5px, solid, rgb(127, 127, 131);
+}
+.hl h2{
+    margin-top: 50px;
+}
+.hl img{
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.title {
+    width: 450px;
+    font-size: 25px;
+    margin-left: 250px;
+}
+.title p{
+    font-style: italic;
+}

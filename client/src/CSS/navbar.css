@@ -1,0 +1,36 @@
+.navbar{
+    width: auto;
+    height: 80px;
+    display: flex;
+    font-family: "Poppins", serif;
+    background-color: #414a4c;
+}
+.navbar nav{
+    display: flex;
+    align-items:center ;
+}
+
+.navbar h1{
+    margin-left: 600px;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar nav button{
+    background-color: rgb(160, 166, 168);
+    width: 100px;
+    height: 35px;
+    margin-left: 480px;
+    margin-top: 50px;
+    color: white;
+    border: 0.5px, solid;
+    border-radius: 0%;
+    border-color: rgb(97, 100, 103);
+    font-size: 15px;
+    padding: 10px ;
+}
+
+.navbar nav button:hover{
+    background-color: rgb(91, 94, 96);
+    cursor: pointer;
+}

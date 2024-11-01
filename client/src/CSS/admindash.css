@@ -1,0 +1,209 @@
+.admin{
+    font-family: "Poppins", serif;
+    background-color:#eef3f5;
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 620px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    border: 0.4px, solid, gray;
+}
+.sidebar button{
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0%;
+    font-size: 18px;
+    border: 0.4px, solid, gray;
+    background-color: rgb(255, 255, 255);
+}
+.sidebar button:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.content{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding: 10px;
+    border: 0.4px, solid, gray;
+}
+
+.nodisplay{
+    text-align: center;
+}
+
+.content .register-form{
+    overflow: auto;
+    width: 700px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content .register-form input{
+    margin: 13px;
+    width: 250px;
+    height: 30px; 
+    padding: 5px; 
+    font-size: 15px;
+    border: 0.5px, solid, gray;
+    border-radius: 10px;
+}
+
+.content .register-form select{
+    width: 150px ;
+    margin-right: 55px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.content .register-form label{
+    margin-left: 20px;
+}
+
+.content .register-form button{
+    width: 210px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 10px;
+}
+.content .register-form button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #525151;
+}
+
+
+.content .newentry {
+    overflow: auto;
+    width: 700px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content .newentry input{
+    margin: 15px;
+    width: 250px;
+    height: 30px;  
+    padding: 5px;
+    font-size: 15px;
+    border: 0.5px, solid, gray;
+    border-radius: 10px;
+}
+.content .newentry select {
+    width: 150px ;
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 35px;
+    font-size: 15px;
+ }
+
+ .content #pt{
+    margin-left: 40px;
+}
+
+.content .newentry button{
+    width: 210px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.content .newentry button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #525151;
+}
+
+.content .search-form{
+    text-align: center;
+    overflow: auto;
+}
+
+.content .search-form .search{
+    display: flex;
+    flex-direction: row;
+}
+
+.content .search-form .search input{
+    width: 300px;
+    height: 17px;
+    margin-left: 70px;
+    padding: 10px;
+    border: 0.4px, solid, lightgray;
+    border-radius: 25px;
+}
+
+.content .search-form .search button{
+    width: 100px;
+    height: 38px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px;
+    border: 0.4px, solid, lightgray;
+    border-radius: 25px;
+}
+
+.content .search-form .search button:hover{
+    background-color: #525151;
+    color: white;
+}
+
+.search-list .pagination button{
+    width: 30px;
+}
+
+.content .discharge {
+    overflow: auto;
+    width: 700px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.content .discharge input{
+    margin: 20px;
+    width: 250px;
+    height: 30px;  
+    padding: 5px;
+    font-size: 15px;
+    border: 0.5px, solid, gray;
+    border-radius: 10px;
+}
+
+.content .discharge button{
+    width: 210px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.content .discharge button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #525151;
+}
+
+.content .discharge label{
+    margin-top:10px;
+}   
+
+.content .discharge textarea{
+    width: 300px;
+    height: 70px;
+    padding: 5px;
+    margin: 10px;
+}

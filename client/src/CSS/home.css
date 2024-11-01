@@ -1,0 +1,33 @@
+.Home{
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    font-family: "Poppins", serif;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    background-image: url('admin_background_img.jpg');
+}
+
+.Home h1{
+    margin-top: 50px;
+}
+
+.Home button{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: #5f6263;
+}
+
+.Home button:hover{
+    color: white;
+    background-color: rgb(29, 30, 30);
+    cursor: pointer;
+}
