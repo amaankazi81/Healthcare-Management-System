@@ -1,4 +1,4 @@
-# Healthcare Management System - Web Dashboard
+## Healthcare Management System - Web Dashboard
 
 A web-based **Healthcare Management System** designed to help hospital administrators efficiently manage patient records, admissions, discharges, and more. This system offers an intuitive dashboard built with **HTML**, **CSS**, and **JavaScript** on the frontend, and a **Node.js** backend with **Firebase Firestore** for secure and scalable data management.
 
@@ -26,7 +26,6 @@ A web-based **Healthcare Management System** designed to help hospital administr
    cd Healthcare-Management-System-Web
 Install Dependencies In the project’s root directory, run:
 
-   Copy code
    ```bash
    npm install
 
