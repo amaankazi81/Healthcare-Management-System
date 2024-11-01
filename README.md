@@ -29,6 +29,7 @@ Install Dependencies In the project’s root directory, run:
 ```bash
 Copy code
 npm install
+```bash
 Configure Firebase
 
 Create a Firebase project and add your web app in Firebase Console.
