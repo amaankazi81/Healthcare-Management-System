@@ -8,13 +8,13 @@ import logo from './logo.ico';
 
 // Firebase configuration object
 const firebaseConfig = {
-    apiKey: "AIzaSyAGgugdCOc_4WJXrP_SInRC7t9EzcJd3Bo",
-    authDomain: "healthcare-management-sy-3e4aa.firebaseapp.com",
-    projectId: "healthcare-management-sy-3e4aa",
-    storageBucket: "healthcare-management-sy-3e4aa.appspot.com",
-    messagingSenderId: "784512196542",
-    appId: "1:784512196542:web:11b6118841d17d2e89a3ef",
-    measurementId: "G-L9FPXL0WD6"
+    apiKey: "Your-API-Key",
+    authDomain: "Your-Domain",
+    projectId: "Your-ProjectID",
+    storageBucket: "Your-Bucket",
+    messagingSenderId: "--"
+    appId: "Your-Api-Id",
+    measurementId: "ID"
 };
 
 const app = initializeApp(firebaseConfig);
